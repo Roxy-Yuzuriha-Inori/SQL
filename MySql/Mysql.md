@@ -8,3 +8,12 @@ select
   count(*) num
 from emp group by job order by num;
 ```
+# if函数
+如果gender=1则是男性员工，gender=2为女性员工
+```sql
+select 
+  if(gender = 1,'男性员工','女性员工') name,
+  count(*) value
+from emp group by gender
+
+```
