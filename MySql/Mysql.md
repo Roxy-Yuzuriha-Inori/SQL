@@ -1,9 +1,9 @@
 创建数据库   CREATE DATABASE 库名<br>
 删除数据库   DROP  DARABASE 库名<br>
-创建表       CREATE TABLE 表名<br>
-列名（id）  数据类型（INT） ）character set 字符集collate 校对规则 engine存储引擎<br>
+创建表       CREATE TABLE 表名 
+（ 列名（id）  数据类型（INT） ）character set 字符集collate 校对规则 engine存储引擎<br>
 修改表        ALTER TABLE 表名  ADD/MODIFY (列名 数据类型)<br>
-                               DROP 列名<br>
+                                DROP 列名<br>
 增加数据      INSERT INTO 表名 （字段）VALUES（值）<br>
 修改数据      UPDATE 表名 SET ...  WHERE ...  把谁的什么改为什么<br>
 删除数据      DELETE FROM 表名 WHERE      删除某条记录<br>
